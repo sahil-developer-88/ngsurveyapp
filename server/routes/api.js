@@ -17,7 +17,7 @@ var con = mysql.createConnection({
   host: "us-cdbr-iron-east-05.cleardb.net",
   user: "b825c63945baa8",
   password: "5d5aa85e",
-  database: 'heroku_1d927b9655319a5'
+  database: "heroku_1d927b9655319a5"
 });
 con.connect(function(err) {
     if (err)            
