@@ -7,18 +7,18 @@ var _=require('lodash');
  
 // db connection
 var mysql = require('mysql');
-// var con = mysql.createConnection({
-//   host: "localhost",
-//   user: "root",
-//   password: "",
-//   database: 'survey_db'
-// });
 var con = mysql.createConnection({
   host: "us-cdbr-iron-east-05.cleardb.net",
-  user: "b825c63945baa8",
-  password: "5d5aa85e",
-  database: "heroku_1d927b9655319a5"
+  user: "bd48c23cc1fdb1",
+  password: "8827dcb2",
+  database: "heroku_b033252ef556848"
 });
+// var con = mysql.createConnection({
+//   host: "us-cdbr-iron-east-05.cleardb.net",
+//   user: "b825c63945baa8",
+//   password: "5d5aa85e",
+//   database: "heroku_1d927b9655319a5"
+// });
 con.connect(function(err) {
     if (err)            
     {                      
