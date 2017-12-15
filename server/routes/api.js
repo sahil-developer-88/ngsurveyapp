@@ -12,7 +12,7 @@ var con = mysql.createConnection({
   user: "bd48c23cc1fdb1",
   password: "8827dcb2",
   database: "heroku_b033252ef556848"
-});
+}); 
 // var con = mysql.createConnection({
 //   host: "us-cdbr-iron-east-05.cleardb.net",
 //   user: "b825c63945baa8",
